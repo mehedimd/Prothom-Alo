@@ -1,0 +1,105 @@
+#nav-id nav ul li a{
+    color: black;
+    font-weight:550;
+}
+#nav-id nav ul li a:hover{
+    color: blue;
+}
+#h-date{
+    font-size: 16px;
+}
+#login i{
+    font-size: 30px;
+}
+
+@media only screen and (max-width:575px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-left{
+        order: 2;
+    }
+    #header-left .icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    #h-date{
+        font-size: 16px;
+    }
+
+    #header-logo{
+        order: 1;
+    }
+    #header-logo img{
+        width: 150px;
+    }
+    #header-right{
+        order: 3;
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        
+    }
+    #login i{
+
+        font-size: 20px;
+    }
+    #login button{
+        margin-left: 3px;
+        
+    }
+
+    #language{
+        margin-left: 0;
+        margin-right:auto;
+    }
+}
+@media only screen and (max-width:767px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #header-left{
+        order: 2;
+        display: flex;
+        flex-direction: row;
+    }
+    #header-left .icon{
+        display: flex;
+        
+    }
+
+    #header-logo{
+        order: 1;
+    }
+    #header-logo img{
+        width: 150px;
+    }
+    #header-right{
+        order: 3;
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        
+    }
+    #login i{
+
+        font-size: 20px;
+    }
+    #login button{
+        margin-left: 3px;
+        
+    }
+
+    #language{
+        margin-left: 0;
+        margin-right:auto;
+    }
+
+}
+@media only screen and (max-width:967px){
+    #nav-id nav ul li a{
+        font-size: 11px;
+    }
+}
